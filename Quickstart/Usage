@@ -1,0 +1,19 @@
+Usage (EN)
+
+1 Install Ollama
+   Follow the instructions on the Ollama website and make sure the ollama command works in your terminal.
+
+2 Download the Mistral model
+
+   bash
+   ollama run mistral
+   Wait until the model has been downloaded and started once; after that you can stop this command.
+
+3 Start the PDA agent in the terminal
+
+   bash
+   cd /path/to/PDA_LLM
+   python main.py
+
+4 Chat
+   After starting main.py you can talk directly with the PDA chatbot in the terminal.
