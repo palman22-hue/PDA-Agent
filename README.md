@@ -5,6 +5,14 @@ The goal is to create an assistant that supports human sovereignty, de‑escalat
 
 ---
 
+### Colab demo
+
+A minimal Colab demo (with a dummy LLM) is available in `PDA_LLM_DEMO.ipynb`.  
+It shows how the PDA ethical loop works, without requiring a local Ollama setup.
+
+https://colab.research.google.com/drive/16wRa3tHCmTeRM6cTgkjEm7vYEANizpFS?usp=sharing
+
+
 ## Features
 
 - Runs locally via **Ollama** using the **Mistral** model.  
