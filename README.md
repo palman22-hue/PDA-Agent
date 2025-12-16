@@ -6,6 +6,7 @@ The goal is to create an assistant that supports human sovereignty, de‑escalat
 ---
 
 ## Why this matters now
+
 Current AI systems increasingly mediate access to information, resources, and opportunities, yet most remain opaque “black boxes” with limited ethical transparency or user control. The PDA Ethical Agent explores a different path: making value judgements explicit, traceable, and inspectable at the interaction level, so users can see and contest how decisions are formed. By combining concrete transcripts, open‑source code, and citable releases, this project aims to be a practical probe into what an actually accountable, ethics‑aware AI could look like in real use.​
 
 ---
