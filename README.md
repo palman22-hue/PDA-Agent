@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # PDA Ethical AI Agent (PDA_LLM)
 
 The PDA Ethical AI Agent is a terminal‑based personal digital assistant built on top of a local LLM (Ollama + Mistral) and the Psycho Dimensional Arithmetic (PDA) / Adaptive Learning Framework (ALF) architecture.  
