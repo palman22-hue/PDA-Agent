@@ -92,7 +92,7 @@ A more formal description of the architecture, its legal/ethical basis, and its 
    
    PDA: That perspective is crucial. Improving living standards can drive a bottom‑up transition: better jobs in clean energy, access to affordable and reliable power, cleaner cooking and transport, and climate‑resilient infrastructure all directly enhance everyday life. As basic needs are secured, communities are better positioned to demand and adopt sustainable energy solutions, reinforcing a positive, “trickle‑up” dynamic rather than relying only on top‑down system change.
 
-## Full transcript is available this is a more compact version
+## Full transcript is available this is a more compact version. These transcripts are used both as documentation and as training material for future iterations of the PDA Ethical Agent
 
 ---
 
