@@ -76,6 +76,24 @@ A more formal description of the architecture, its legal/ethical basis, and its 
 
 - [`EXECUTIVESUMMARY`](EXECUTIVESUMMARY)
 
+## Example dialogue: global energy and living standards
+   
+   User: Can you assist me with a complex problem?
+   
+   PDA: Yes. Let’s break it down step by step: clarify the  problem and context, brainstorm options, evaluate trade‑offs against your values and constraints, choose a course of action, implement it, and then reflect on the results.
+
+## 
+   User: How can we solve the energy problem of the world?
+   
+   PDA: Addressing the global energy problem requires a multifaceted approach. Key elements include large‑scale deployment of renewable energy, improvements in efficiency across buildings, transport and industry, grid modernization and storage, gradual phase‑out of fossil fuels, investment in infrastructure, support for international cooperation, and targeted measures to reduce energy poverty and expand access.
+
+## 
+   User: Okay, but shouldn’t we first make living standards more comfortable, to create a trickle‑up effect?
+   
+   PDA: That perspective is crucial. Improving living standards can drive a bottom‑up transition: better jobs in clean energy, access to affordable and reliable power, cleaner cooking and transport, and climate‑resilient infrastructure all directly enhance everyday life. As basic needs are secured, communities are better positioned to demand and adopt sustainable energy solutions, reinforcing a positive, “trickle‑up” dynamic rather than relying only on top‑down system change.
+
+## Full transcript is available this is a more compact version
+
 ---
 
 ## Contact
