@@ -5,6 +5,14 @@
 The PDA Ethical AI Agent is a terminal‑based personal digital assistant built on top of a local LLM (Ollama + Mistral) and the Psycho Dimensional Arithmetic (PDA) / Adaptive Learning Framework (ALF) architecture.  
 The goal is to create an assistant that supports human sovereignty, de‑escalates conflict, and operates within clear ethical and legal boundaries instead of behaving as a black‑box optimizer.
 
+## Change log
+v0.1.2 – Added temporal safeguards (time‑aware wellbeing prompts and engagement limits
+
+---
+Now with added temporal safeguards as to limit user engagement
+
+These temporal safeguards are designed to reduce predatory engagement patterns and promote healthier rhythms around meals, screen time, and sleep.”
+
 ---
 
 ## Why this matters now
