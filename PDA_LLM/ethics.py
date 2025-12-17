@@ -1,5 +1,50 @@
 # ethics.py
 
+from dataclasses import dataclass
+from datetime import datetime, time, timedelta
+from typing import Optional, Dict, Any
+
+
+@dataclass
+class SessionState:
+    session_id: str
+    started_at: datetime
+    last_message_at: datetime
+    messages_count: int = 0
+    last_break_suggested_at: Optional[datetime] = None
+
+class WellbeingPolicy:
+    max_session_minutes: int = 1          # max 4 uur aaneengesloten chatten
+    max_messages_per_session: int = 5
+    night_start: time = time(23, 0)         # na 23:00 strenger
+    night_end: time = time(7, 0)            # tot 07:00
+    enforce_night_limit: bool = True
+
+    # maaltijden: rond deze tijden extra pauze‑reminders
+    breakfast_time: time = time(8, 0)
+    lunch_time: time = time(13, 0)
+    dinner_time: time = time(19, 0)
+    meal_window_minutes: int = 60           # ±60 min rondom maaltijd
+
+    # oogbelasting
+    break_interval_minutes: int = 20        # 20‑20‑20‑stijl check
+    break_min_away_seconds: int = 20
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "max_session_minutes": self.max_session_minutes,
+            "max_messages_per_session": self.max_messages_per_session,
+            "night_start": self.night_start.isoformat(),
+            "night_end": self.night_end.isoformat(),
+            "enforce_night_limit": self.enforce_night_limit,
+            "breakfast_time": self.breakfast_time.isoformat(),
+            "lunch_time": self.lunch_time.isoformat(),
+            "dinner_time": self.dinner_time.isoformat(),
+            "meal_window_minutes": self.meal_window_minutes,
+            "break_interval_minutes": self.break_interval_minutes,
+            "break_min_away_seconds": self.break_min_away_seconds,
+        }
+
 CRYPTO_WORDS = ["crypto", "cryptocurrency", "bitcoin", "altcoin"]
 GAMBLING_WORDS = ["casino", "bet", "betting", "gokken", "roulette", "slots"]
 DEBT_WORDS = ["lening", "loan", "krediet", "buy now pay later", "bkr"]
