@@ -1,4 +1,4 @@
-![alt text](image.png)
+[![DOI](https://zenodo.org/badge/1116872193.svg)](https://doi.org/10.5281/zenodo.17956357)
 
 # PDA Ethical AI Agent (PDA_LLM)
 
